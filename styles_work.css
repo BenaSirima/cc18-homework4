@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    color: rgba(33, 36, 61, 1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #fff;
+    padding: 1rem 0;
+    font-weight: Medium;
+    font-size: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+}
+
+header nav ul li a.active {
+    color: rgba(255, 100, 100, 1);
+}
+
+main {
+    flex: 1;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.work-title {
+    margin-bottom: 2rem;
+}
+
+.work-title h1 {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.work-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.work-posts article {
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 2rem;
+}
+
+.work-posts article img {
+    width: 250px;
+    height: 250px;
+    ;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.work-posts article .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-posts article h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.work-posts article .meta {
+    display: flex;
+    gap: 1rem;
+    color: rgba(133, 148, 163, 1);
+    font-size: 20px;
+}
+
+.work-posts article .meta .year {
+    background: rgba(0, 0, 0, 1);
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.work-posts article .meta .category {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.work-posts article p {
+    color: rgba(33, 36, 61, 1);
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+footer {
+    background: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+footer .social-media a {
+    margin: 0 0.5rem;
+}
+
+footer p {
+    color: rgba(133, 148, 163, 1);
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
